@@ -1,0 +1,78 @@
+
+.order_page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order_address{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.order_address input{
+    width: 90%;
+    font-size: 1.5rem;
+    border: solid 4px burlywood;
+    text-align: center;
+    height: 5rem;
+}
+.order_details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.order_table_div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.order_cart_table{
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+.order_cart_tfoot_tr{
+    border: 2px solid black;
+}
+.order_cart_tfoot_tr tr td{
+    font-size: 1.5rem;
+}
+.order_td{
+    text-align: right;
+    border-left: 2px solid black;
+}
+.order_payment_innerdiv{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.order_payment{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.payment_type{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.payment_type_inner{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.payment_type span{
+    font-size: 1.5rem;
+}
