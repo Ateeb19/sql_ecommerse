@@ -1,0 +1,94 @@
+.background{
+    width: 100%;
+    height: 100%;
+    background-color: #c1bbc1;
+    padding: 30px 150px 6.6rem 150px;
+
+}
+.inner-background{
+    width: 100%;
+    height: 30rem;
+    border-radius: 1rem;
+    background-color: white;
+    box-shadow: -2px 3px 10px #000;
+}
+.profile-outerdiv{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 11rem;
+    justify-content: center;
+    align-items: center;
+}
+.profile-pic{
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    box-shadow: -2px 3px 5px rgb(81, 81, 81);
+}
+.profile-pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profile-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 0 0; 
+    font-family: cursive;
+    color: #740000;
+}
+.profile-div button{
+    font-size: 1rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    cursor: default;
+}
+.profile-outerdiv h1{
+    font-family: cursive;
+    color: #740000;
+    text-transform: uppercase;
+}
+.orders{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+}
+.orders button a{
+    font-size: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    cursor: default;
+    color: white;
+}
+.box{
+    display: flex;
+    position: absolute;
+    width: 18rem;
+    margin: -25em 40rem 30px 28rem;
+    border: 3px solid black;
+    padding: 2rem;
+    background-color: #54ffa4;
+    justify-content: center;
+}
+.inner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.inner-box form{
+    padding: 0px;
+    background-color: #54ffa4 ;
+    font-family: cursive;
+}
+.inner-box form button{
+    font-size: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin-top: 1rem;
+    cursor: default;
+}

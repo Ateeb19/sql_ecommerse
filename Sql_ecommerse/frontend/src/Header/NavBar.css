@@ -1,0 +1,35 @@
+.logo{
+    height: 80px;
+    width: 150px;
+}
+.icon{
+    color: #DA763A !important;
+    font-size: 1.7rem;
+    transition: 0.5s;
+}
+.icon:hover{
+    font-size: 2.1rem !important;    
+}
+.navbar{
+    font: 1.3rem solid bold;
+    font-family: cursive;
+    font-weight: bold;
+}
+.nav-link{
+    color: #DA763A;
+}
+.nav-link:hover{
+    color: #494738 !important;
+    font-size: 1.6rem;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.nav-link:focus{
+    color: #DA763A;
+}
+.back{
+    background-color: #EDD5C9;
+}
+.nav-item{
+    height: 20px;
+}
