@@ -13,12 +13,12 @@ const NavBar = () => {
         role = true;
     }
     return(
-        <div className="container-fluid pb-3 back">
-            <div className="container-xxl border-bottom border-dark">
+        <div className="container-fluid back">
+            <div className="container-xxl">
             <div className="row ms-1 me-1 pt-2 pb-2">
                 <div className="col-5">
                     <div className="logo">
-                        <img src="/logo__.jpg" alt="Company Logo" height='100%' width='100%'/>
+                        <img src="/logo__.jpg" alt="Company Logo"/>
                     </div>
                 </div>
 

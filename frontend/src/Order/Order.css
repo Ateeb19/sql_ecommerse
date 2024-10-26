@@ -2,6 +2,9 @@
     width: 100%;
     text-align: center;
 }
+.order_table:hover{
+    cursor: default !important;
+}
 .table_thead{
     background-color: coral;
     color: whitesmoke;

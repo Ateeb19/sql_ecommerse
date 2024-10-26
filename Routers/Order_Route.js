@@ -21,6 +21,6 @@ Routers.route('/razor_pay').post(Razorpay_api);
 Routers.route('/razor_pay_success').post(AuthenticateToken,Success);
 //Admin
 Routers.route('/admin/all_order').get(AuthenticateToken, All_order);
-Routers.route('/admin/update_status').get(AuthenticateToken, Order_Status);
+Routers.route('/admin/update_status').post(AuthenticateToken, Order_Status);
 
 module.exports = Routers;

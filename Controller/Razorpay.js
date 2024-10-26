@@ -110,24 +110,6 @@ const Success = async(req, res) => {
                 }
             );
         });
-
-
-        //   orderids.forEach(element => {
-        //     db.query('UPDATE orders SET ? WHERE user_id = ? AND id = ?', [{order_date: order_da, order_id: razorpayOrderId, payment_id: razorpayPaymentId, amount_type: 'netbanking', confirm: 'yes'}, req.user.userid, element], (err, result) => {
-        //     if(err){
-        //         res.json({message:'payment success', result: 'But error in database', oerderId: razorpayOrderId, paymentId: razorpayPaymentId});
-        //     }else{
-        //         res.json({message: 'success', oerderId: razorpayOrderId, paymentId: razorpayPaymentId})
-        //     }
-        // })
-        //   });
-
-
-        // res.json({
-        //     msg: "success",
-        //     orderId: razorpayOrderId,
-        //     paymentId: razorpayPaymentId,
-        // });
     } catch (error) {
         res.status(500).send(error);
     }
